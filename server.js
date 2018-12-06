@@ -132,4 +132,4 @@ client.on('guildMemberRemove', member => {
 
 });
 
-client.login(tokenfile.token);
+client.login(TOKEN);
