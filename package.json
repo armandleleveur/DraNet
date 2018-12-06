@@ -1,0 +1,30 @@
+{
+  "name": "bot-discord",
+  "version": "3.0.0",
+  "description": "Bot Pour Drakaria Network",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MrEleveur",
+  "license": "ISC",
+  "dependencies": {
+    "better-sqlite3": "^5.0.1",
+    "discord.js": "^11.4.2",
+    "ffmpeg": "0.0.4",
+    "fortnite": "^4.1.1",
+    "fs": "0.0.1-security",
+    "lzma-native": "^4.0.3",
+    "ms": "^2.1.1",
+    "node-gyp": "^3.8.0",
+    "node-opus": "^0.3.1",
+    "node-sass": "^4.10.0",
+    "opusscript": "0.0.6",
+    "quick.db": "^6.1.1",
+    "quick.hook": "^1.5.1",
+    "snekfetch": "^4.0.4",
+    "tar": "^4.4.8",
+    "yt-search": "^0.3.0",
+    "ytdl-core": "^0.28.0"
+  }
+}
