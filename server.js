@@ -118,7 +118,7 @@ client.on('ready', () => {
         .setColor("RAMDOM")
         .setFooter("Nouvel An @Drakaria Network")
         .setTimestamp();
-        client.channels.get(test).send("@everyone");
+        //client.channels.get(test).send("@everyone");
         client.channels.get(test).send(a);
     }, 2174400000);
 });
