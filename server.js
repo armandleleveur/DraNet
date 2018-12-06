@@ -118,9 +118,9 @@ client.on('ready', () => {
         .setColor("RAMDOM")
         .setFooter("Nouvel An @Drakaria Network")
         .setTimestamp();
-        //client.channels.get(test).send("@everyone");
+        client.channels.get(test).send("@everyone");
         client.channels.get(test).send(a);
-    }, 10000);
+    }, 2174400000);
 });
 
 client.on('guildMemberAdd', member => {
