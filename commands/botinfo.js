@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 
 module.exports.run = async (client, message, args) => {
-    let bicon = bot.user.displayAvatarURL;
+    let bicon = client.user.displayAvatarURL;
     let botembed = new Discord.RichEmbed()
     .setDescription("Informations sur le bot")
     .setColor("#15f153")
