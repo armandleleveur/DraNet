@@ -6,8 +6,8 @@ module.exports.run = async (client, message, args) => {
     .setDescription("Informations sur le bot")
     .setColor("#15f153")
     .setThumbnail(bicon)
-    .addField("Nom du bot", bot.user.username)
-    .addField("Créé en", bot.user.createdAt)
+    .addField("Nom du bot", client.user.username)
+    .addField("Créé en", client.user.createdAt)
     .setFooter("Commande BotInfo @Drakaria Network")
     .setTimestamp();
 
