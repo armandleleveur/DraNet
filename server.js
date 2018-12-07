@@ -25,7 +25,7 @@ let statuses = ['discord.gg/ADnw9D7', 'Bonjour le monde !', 'Serveur Minecraft',
 
 let cal = ['Un Grade Joueur+', 'Un Grade Suzerain', 'Un Accès au bêta du serveur', 'Un Accès au béta du launcheur', 'Accès prioritère au serveur Minecraft', 'Des Nouveaux Emoji', 'Channel Réservé Vocal (3 joueur)', 'Channel Réservé Vocal (2 joueur)', 'Channel Réservé Vocal (4 joueur)', 'Channel Réservé Vocal (joueur illimité)', 'Emoji Externe'];
 
-client.on('ready', () => {
+/*client.on('ready', () => {
     setInterval(function() {
     
         let status = statuses[Math.floor(Math.random()*statuses.length)];
@@ -38,7 +38,7 @@ client.on('ready', () => {
 
     }, 10000)
 
-});
+});*/
 
 client.on('message', async message => {
 
@@ -64,7 +64,12 @@ client.on('message', async message => {
     }
 });
 
-client.on('ready', () => console.log('Lancer !'));
+client.on('ready', () => {
+    console.log('Lancer !');
+    client.user.setGame('Drakaria Network', 'https://drakaria-network.000webhostapp.com/');
+    
+
+});
 
 client.on('ready', () => {
     setInterval(function() {
