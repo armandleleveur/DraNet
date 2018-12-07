@@ -72,11 +72,11 @@ client.on('ready', () => {
 
 });
 
-client.on('ready', () => {
+/*client.on('ready', () => {
     setInterval(function() {
-        /*for (user of client.users){
-            console.log(user[1].id);
-          }*/
+        //for (user of client.users){
+            //console.log(user[1].id);
+          //}
         
         
         let u = users[Math.floor(Math.random()*users.length)];
@@ -113,7 +113,7 @@ client.on('ready', () => {
 
 
     }, 86400000); //86400000
-});
+});*/
 
 
 
