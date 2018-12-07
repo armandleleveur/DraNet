@@ -66,6 +66,7 @@ client.on('message', async message => {
 
 client.on('ready', () => {
     console.log('Lancer !');
+    client.user.setStatus('Online');
     client.user.setGame('Drakaria Network', 'https://drakaria-network.000webhostapp.com/');
     
 
